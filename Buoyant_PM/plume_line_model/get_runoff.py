@@ -3,7 +3,7 @@ import xarray as xr
 import pandas as pd
 
 # Define the local location of Mankoff 2020 runoff dataset files
-p2r = 'C:/Users/s1834371/OneDrive - University of Edinburgh/data/mankoff_runoff/'  # '~/OneDrive - University of Edinburgh/data/mankoff_runoff/'
+p2r = 'C:/Users/s1834371/OneDrive - University of Edinburgh/data/mankoff_runoff/'  
 
 def deg2rad(deg):
     return deg * (np.pi / 180.0)
